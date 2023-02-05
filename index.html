@@ -318,21 +318,27 @@
           </p>
           <!-- Input & Button Container -->
           <div
-            class="flex flex-col items-start space-y-6 md:flex-row md:space-y-0 md:space-x-6"
+            class="flex flex-col items-start space-y-6 md:flex-row md:space-y-0 md:space-x-6 pb-8"
           >
-            <div class="w-full md:flex-1">
+            <form action="#" class="email-form w-full md:flex-1">
+              <label for="email"></label>
               <input
-                type="text"
-                class="w-full px-10 py-3 rounded-full focus:outline-none"
-                placeholder="email@example.com"
+                class="email w-full px-10 py-3 rounded-full focus:outline-none"
+                type="email"
+                id="email"
+                placeholder="Email address"
+                aria-label="email address"
+                required
               />
-            </div>
+            </form>
             <button
-              class="w-full p-3 px-6 rounded-full bg-accentCyan md:w-56 hover:scale-95"
+              class="btn w-full p-3 px-6 rounded-full bg-accentCyan md:w-56 hover:scale-95"
+              type="submit"
             >
               Get Started For Free
             </button>
           </div>
+          <span class="err-message"></span>
         </div>
       </section>
     </main>
