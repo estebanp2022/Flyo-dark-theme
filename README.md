@@ -47,4 +47,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-I'm currently taking a Udemy course on Tailwind CSS. I completed this project with the guidance of the course author Brad Traversy. Highly recommend.
+I'm currently taking a Udemy course on Tailwind CSS. I completed this project with the guidance of the course author Brad Traversy.
